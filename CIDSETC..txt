@@ -1,0 +1,32 @@
+GIFS:
+CID 
+bafybeigxqylii3fbqbzzxpjkn33refllon6k5jjllepgsbjqjig73syt4i
+IPFS URL
+ipfs://bafybeigxqylii3fbqbzzxpjkn33refllon6k5jjllepgsbjqjig73syt4i
+GATEWAY URL
+https://nftstorage.link/ipfs/bafybeigxqylii3fbqbzzxpjkn33refllon6k5jjllepgsbjqjig73syt4i
+
+
+
+JSONS:
+CID
+bafybeihjax7mxrzb7i34oetdbd66rccl2agcwsxuyxmh54pjxr6vpbjhse
+IPFS URL
+ipfs://bafybeihjax7mxrzb7i34oetdbd66rccl2agcwsxuyxmh54pjxr6vpbjhse
+GATEWAY URL
+https://nftstorage.link/ipfs/bafybeihjax7mxrzb7i34oetdbd66rccl2agcwsxuyxmh54pjxr6vpbjhse
+
+
+
+Unrevealed:
+IPFS URL:
+ipfs://bafkreifco6guhjmyx6dstovit4uakiipghnrvdtihxbh4z3377hfnnmitq
+
+coolhumpy:
+181640aa-17f8-424b-ab2f-8554d78c1005
+
+coolhumpy12:
+181e7fb7-ff44-46e1-a5b7-e3e49856c310
+
+API KEY
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDU1MTMyN0VCOTZiYjQyQWQ1NDZFZGJkMTFDRGVlMmY4MDZlQjZkQTMiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY3NzMxNTMyMjM1MCwibmFtZSI6IkNvb2wgSHVtcGJhY2tzIn0.PHY7uO5Bd1U4xvcAPEA-tWRTly5ZiXjp8q90KmS2eYQ
