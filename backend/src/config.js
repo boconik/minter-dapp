@@ -58,7 +58,7 @@ const OWNER_ADDRESS = '0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee';
 const TREASURY_ADDRESS = '0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee';
 const MAX_SUPPLY = 6500; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.01; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 1; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2023-03-01T10:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
