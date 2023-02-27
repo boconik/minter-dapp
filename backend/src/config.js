@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Cool Humpbacks";
 const description = "Cool Humpbacks are born from limited resources of the CRYPTOOCEAN, where they live and thrive. Collection consists of 6500 Humpback Whales digitally generated, each with various characteristics and passions, but overall with a single purpose.";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "ipfs://bafybeibje4tkqlfxl7auek73nxf73aprcwkwnquuxtywetftyvf7apxbwe"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
