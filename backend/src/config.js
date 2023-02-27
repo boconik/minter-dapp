@@ -51,11 +51,11 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'goerli'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = "COOLHUMPBACK";
-const CONTRACT_SYMBOL = "CH";
+const CONTRACT_NAME = 'COOLHUMPBACK';
+const CONTRACT_SYMBOL = 'CH';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = "0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee";
-const TREASURY_ADDRESS = "0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee";
+const OWNER_ADDRESS = '0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee';
+const TREASURY_ADDRESS = '0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee';
 const MAX_SUPPLY = 6500; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.01; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
@@ -76,7 +76,7 @@ let CONTRACT_ADDRESS = "0x724fe5Ed59bAB88BEBf42C6b8bC77e16B7C9B891"; // If you w
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
-const GENERIC_TITLE = "COOLHUMPBACK"; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
+const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which Humpback will you get?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreifco6guhjmyx6dstovit4uakiipghnrvdtihxbh4z3377hfnnmitq"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
