@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Cool Humpbacks";
 const description = "Cool Humpbacks are born from limited resources of the CRYPTOOCEAN, where they live and thrive. Collection consists of 6500 Humpback Whales digitally generated, each with various characteristics and passions, but overall with a single purpose.";
-const baseUri = "ipfs://bafybeifymgcs7z7ksemnxh5zii4talcc2qhxcm2t6bu2obxpsc3tndc5aq/"; // This will be replaced automatically
+const baseUri = "ipfs://NewUriToReplace/"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
@@ -67,15 +67,15 @@ const PUBLIC_MINT_START_DATE = "2023-03-01T10:30:48+00:00"; // This is required.
 const PRESALE_MINT_START_DATE = "2023-02-18T10:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee"; // Address that will receive the royalty
-const BASE_URI = "ipfs://bafybeifymgcs7z7ksemnxh5zii4talcc2qhxcm2t6bu2obxpsc3tndc5aq/"; // only update if you want to manually set the base uri
-const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
+const BASE_URI = null; // only update if you want to manually set the base uri
+const PREREVEAL_TOKEN_URI = "https://ipfs.io/ipfs/bafkreidxsg4jwduqnkvfkvuyu2nfwz66k6hr7ltlm3n34st2n3gzdmd6re"; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = ["0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee","0x3a5F50faCCF81b1096A013e0418700233F39145B","0xAdc167288129639e3C3339b33F0445A6Bd3F5344","0x1A108251508b57cc55e54bf75a983948E2fC0021"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "0xF8f07d298cfC315149Abf928cDA2A60C2b453ACf"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which Humpback will you get?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreidxsg4jwduqnkvfkvuyu2nfwz66k6hr7ltlm3n34st2n3gzdmd6re"; // Replace with your generic image that will display for all NFTs pre-reveal.
