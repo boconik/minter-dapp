@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Cool Humpbacks";
-const description = "Cool Humpbacks are born from limited resources of the CRYPTOOCEAN, where they live and thrive. Collection consists of 6500 Humpback Whales digitally generated, each with various characteristics and passions, but overall with a single purpose.";
+const description = "Cool Humpbacks are born from limited resources of the CRYPTOOCEAN, where they live and thrive. Collection consists of 6500 digitally generated Humpback Whales, each with various characteristics and traits, but overall with a single purpose.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
@@ -78,7 +78,7 @@ let CONTRACT_ADDRESS = "0x724fe5Ed59bAB88BEBf42C6b8bC77e16B7C9B891"; // If you w
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which Humpback will you get?"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreifco6guhjmyx6dstovit4uakiipghnrvdtihxbh4z3377hfnnmitq"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreidxsg4jwduqnkvfkvuyu2nfwz66k6hr7ltlm3n34st2n3gzdmd6re"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
@@ -97,7 +97,7 @@ try {
 const solanaMetadata = {
   symbol: "YC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "",
   creators: [
     {
       address: "",
