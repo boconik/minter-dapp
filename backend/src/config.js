@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Cool Humpbacks";
-const description = "Cool Humpbacks are born from limited resources of the CRYPTOOCEAN, where they live and thrive. Collection consists of 6500 digitally generated Humpback Whales, each with various characteristics and traits, but overall with a single purpose.";
+const description = "Cool Humpbacks are born from limited resources of the CRYPTOOCEAN, where they live and thrive. Collection consists of 6500 Humpback Whales digitally generated, each with various characteristics and passions, but overall with a single purpose.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
@@ -69,7 +69,7 @@ const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the ro
 const ROYALTY_ADDRESS = "0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee"; // Address that will receive the royalty
 const BASE_URI = "ipfs://bafybeibje4tkqlfxl7auek73nxf73aprcwkwnquuxtywetftyvf7apxbwe"; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0xAdc167288129639e3C3339b33F0445A6Bd3F5344","0x1A108251508b57cc55e54bf75a983948E2fC0021"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0x3a5F50faCCF81b1096A013e0418700233F39145B","0xAdc167288129639e3C3339b33F0445A6Bd3F5344","0x1A108251508b57cc55e54bf75a983948E2fC0021"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "0x724fe5Ed59bAB88BEBf42C6b8bC77e16B7C9B891"; // If you want to manually include it
