@@ -3,7 +3,7 @@ const chain = 'goerli'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "🐳 Welcome to the Cryptoocean! 🐳 ";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'Cool Humpbacks are born from limited resources of the CRYPTOOCEAN, where they live and thrive. Collection consists of 6500 Humpback Whales digitally generated, each with various characteristics and passions, but overall with a single purpose.'
+const welcome_p = 'Cool Humpbacks are born from limited resources of the CRYPTOOCEAN, where they live and thrive. Collection consists of 6500 digitally generated Humpback Whales, each with various characteristics and passions, but overall with a single purpose.'
 const h1_presale_coming_soon = "NFT Drop Coming Soon!";
 const h1_presale_mint = "Pre-Sale Minting is Now Open!";
 const h1_public_mint = "Public Minting is Now Open!";
