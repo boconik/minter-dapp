@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Cool Humpbacks";
-const description = "Cool Humpbacks series is an NFT collection created by a young novice programmer and Pixel Art lover as a form of self-expression and educational introduction into Non-fungible Tokens. Those nutty hefty whales are actually very fascinating not only because they are considered to be one of the largest mammals on Earth. They are also a zoomorphic representation of individuals that actually own the largest resources of specific cryptocoins. The name of this animal comes from the characteristic fin on its back that looks like a hump. The little bump emphasizes as Cool Humpbacks raise and bend their backs in preparation for a DIP dive into the CRYPTOOCEAN to find at least ONE GEM that potentially will be providing with massive gains. The words on the reverse side of the token read: Always carry me and rub my hump for good luck.";
+const description = "Always carry me and rub my hump for good luck.";
 const baseUri = "ipfs://NewUriToReplace/"; // This will be replaced automatically
 
 const layerConfigurations = [
