@@ -76,7 +76,7 @@ let CONTRACT_ADDRESS = "0x6F328bf93C246E44beFFa966cd0E1f1a36A90412"; // If you w
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
-const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
+const GENERIC_TITLE = "Unrevealed Cool Humpback"; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which Humpback will you get?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreidxsg4jwduqnkvfkvuyu2nfwz66k6hr7ltlm3n34st2n3gzdmd6re"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
