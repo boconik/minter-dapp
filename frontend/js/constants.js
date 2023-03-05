@@ -1,4 +1,4 @@
-const contractAddress = "0x634d7FB5f337eAc22FBB2b20374AAde6db1D5668"; // Replace with your own contract address
+const contractAddress = "0xB5AF6146ba46802730c6B32303f5afbdbc2738E8"; // Replace with your own contract address
 const chain = 'goerli'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "🐳 Welcome to the Cryptoocean! 🐳 ";

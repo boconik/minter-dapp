@@ -72,12 +72,12 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = ["0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee","0x3a5F50faCCF81b1096A013e0418700233F39145B","0xAdc167288129639e3C3339b33F0445A6Bd3F5344","0x1A108251508b57cc55e54bf75a983948E2fC0021"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x634d7FB5f337eAc22FBB2b20374AAde6db1D5668"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0xB5AF6146ba46802730c6B32303f5afbdbc2738E8"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
-const GENERIC_TITLE = "Unrevealed Cool Humpback"; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "Which Cool Humpback will you get?"; // Replace with what you want the generic descriptions to say.
+const GENERIC_TITLE = "Unrevealed"; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
+const GENERIC_DESCRIPTION = "Which Cool Humpback will you get? Stay tuned..."; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreidxsg4jwduqnkvfkvuyu2nfwz66k6hr7ltlm3n34st2n3gzdmd6re"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
