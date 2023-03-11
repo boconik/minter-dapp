@@ -222,7 +222,7 @@ section {
 }
 
 .countdown > p {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   font-family: var(--font-secondary);
   margin-bottom: 0.5rem;
   text-align: center;
