@@ -64,7 +64,7 @@ const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single
 const PUBLIC_MINT_START_DATE = "2023-03-12T10:30:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2023-03-10T10:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2023-03-05T10:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 250; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
@@ -72,7 +72,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = ["0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee","0x3a5F50faCCF81b1096A013e0418700233F39145B","0xAdc167288129639e3C3339b33F0445A6Bd3F5344","0x1A108251508b57cc55e54bf75a983948E2fC0021"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "YOUR_CONTRACT"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x8e5F7Ed41bB083E8Ed11804D81350b8A788688d4"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
