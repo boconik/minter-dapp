@@ -268,7 +268,7 @@ section {
 
 .input-number {
   height: 100%;
-  padding: 1rem;
+  padding: 0.5rem;
   vertical-align: top;
   text-align: center;
   outline: none;
@@ -284,7 +284,7 @@ section {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 1rem 0 2rem;
+  padding: 0.5rem 0 2rem;
 }
 
 .total-price-container p {
