@@ -250,7 +250,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0.8rem;
   background-color: var(--accent-color);
   border-radius: 5px;
 }
