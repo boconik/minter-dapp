@@ -61,7 +61,7 @@ const MINT_PRICE = 200; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, 
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2023-03-06T10:30:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2023-03-12T10:30:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2023-03-10T10:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
