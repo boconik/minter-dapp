@@ -13,7 +13,7 @@ const baseUri = "ipfs://NewUriToReplace/"; // This will be replaced automaticall
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 6500,
+    growEditionSizeTo: 5000,
     layersOrder: [
 { name: "BACKGROUND" },
 { name: "COIN" },
@@ -48,7 +48,7 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'goerli'; // only goerli, polygon, or ethereum
+const CHAIN = 'polygon'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'COOLHUMPBACK';
@@ -56,15 +56,15 @@ const CONTRACT_SYMBOL = 'CH';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee';
 const TREASURY_ADDRESS = '0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee';
-const MAX_SUPPLY = 6500; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.01; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 200; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2023-03-06T10:30:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2023-03-01T10:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2023-03-10T10:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 250; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xCCB7deEAb2595230B80bBa0A6f9705Db1B0Cc2ee"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
@@ -76,8 +76,8 @@ let CONTRACT_ADDRESS = "YOUR_CONTRACT"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
-const GENERIC_TITLE = "Unrevealed"; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "Which Cool Humpback will you get? Stay tuned..."; // Replace with what you want the generic descriptions to say.
+const GENERIC_TITLE = "Who's That Humpback?"; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
+const GENERIC_DESCRIPTION = "Which Cool Humpback will you get? Stay tuned until revelation..."; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreidxsg4jwduqnkvfkvuyu2nfwz66k6hr7ltlm3n34st2n3gzdmd6re"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
